@@ -16,3 +16,66 @@
   min-width: 80px;
   text-align: center;
 }
+
+@media screen and (max-width:380px) {
+  .counter {
+    gap: 0.2rem;
+  }
+
+  .counter-number {
+    background-color: #000;
+    color: #fff;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    min-width: 10px;
+    text-align: center;
+  }
+
+  body {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .counter {
+    gap: 0.3rem;
+  }
+
+  .counter-number {
+    background-color: #000;
+    color: #fff;
+    padding: 0.7rem;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    min-width: 20px;
+    text-align: center;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .counter {
+    gap: 0.5rem;
+  }
+
+  .counter-number {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+  }
+
+  body {
+    font-size: 20px;
+  }
+}

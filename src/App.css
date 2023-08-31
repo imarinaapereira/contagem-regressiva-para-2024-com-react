@@ -14,7 +14,7 @@
 
 .container {
   min-width: 50%;
-  min-height: 300px;
+  height: 300px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2rem;
   border-radius: 0.5rem;
@@ -26,4 +26,52 @@
   align-items: center;
   height: 200px;
   gap: 2rem;
+}
+
+@media screen and (max-width:380px) {
+  .container {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    height: 150px;
+  }
+
+  .countdown-container {
+
+    height: 150px;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width:430px) {
+  .container {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3rem;
+    border-radius: 0.6rem;
+    height: 180px;
+  }
+
+  .countdown-container {
+
+    height: 180px;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .container {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 3rem;
+    border-radius: 0.6rem;
+    height: 300px;
+  }
+
+  .countdown-container {
+
+    height: 300px;
+    gap: 1.2rem;
+  }
 }
