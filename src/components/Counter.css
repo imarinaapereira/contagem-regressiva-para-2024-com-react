@@ -19,15 +19,17 @@
 
 @media screen and (max-width:380px) {
   .counter {
-    gap: 0.2rem;
+    margin: 1rem;
+    width: 90px;
+    height: 40px;
   }
 
   .counter-number {
     background-color: #000;
     color: #fff;
-    padding: 0.6rem;
-    border-radius: 0.3rem;
-    font-size: 1rem;
+    padding: 0.1rem;
+    border-radius: 0.1rem;
+    font-size: 0.5rem;
     font-weight: bold;
     min-width: 10px;
     text-align: center;
@@ -40,7 +42,9 @@
 
 @media screen and (max-width:430px) {
   .counter {
-    gap: 0.3rem;
+    margin: 2rem;
+    width: 80px;
+    height: 30px;
   }
 
   .counter-number {
